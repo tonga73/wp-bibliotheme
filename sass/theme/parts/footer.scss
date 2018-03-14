@@ -1,0 +1,16 @@
+#wrapper-footer {
+	border-top: 15px solid $cc-main;
+	margin-top: 3rem;
+	.container {
+		.row {
+			#footer-contact {
+				a {
+					color: $cc-main;
+					&:hover, &:focus {
+						color: $cc-primary;
+					}
+				}				
+			}
+		}
+	}
+}

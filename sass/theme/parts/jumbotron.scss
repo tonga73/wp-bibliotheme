@@ -1,0 +1,123 @@
+// Main Settings Jumbo
+.jumbotron {
+	border-radius: 0;
+	margin-bottom: 1rem;
+	align-items: center;
+	display: flex;
+	background-color:$cream;
+	border-bottom: 15px solid $cc-dblue;
+	h1 {
+		font-weight: bold;
+		color: $dark-light;
+		letter-spacing: 1.23px;
+	}
+}
+
+// Main Settings Parallax
+.jumbotron-para {
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 1rem;
+	align-items: center;
+	display: flex;
+}
+
+// Custom Jumbotrons
+
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 400px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+/* Paragraph for Parallax Section */ 
+.paral p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+/* Image for Parallax Section */ 
+// Inicio
+.page-inicio {
+background-image: url("http://localhost/proj/wordpressBIB/wp-content/uploads/2018/03/100_0841.jpg");
+}
+// Nosotros
+.page-nosotros {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f2/Biblioteca_de_la_Escuela_Superior_de_Ingenier%C3%ADa_de_la_Universidad_de_C%C3%A1diz.jpg");
+}
+// Cuentas
+.page-cuentas {
+background-image: url("http://www.diariodecultura.com.ar/wp-content/uploads/2017/11/libros_antiguos.jpg");
+}
+// Contacto
+.page-contacto {
+background-image: url("http://www.diariodecultura.com.ar/wp-content/uploads/2017/11/libros_antiguos.jpg");
+}
+// Servicios Generales
+.page-servicios-generales {
+background-image: url("http://www.almussafes.es/sites/almussafes.portalesmunicipales.es/files/customcssjs/images/departaments/biblioteca/biblioteca3.jpg");
+}
+// Servicio al Ciudadano
+.page-servicios-servicio-ciudadano {
+background-image: url("https://librarybuildings.info/sites/default/files/bibl-info-8-mar-2013-1703.jpg");
+}
+// Hacerse Socio
+.page-servicios-hacerse-socio {
+background-image: url("http://www.trussvilletribune.com/wp-content/uploads/2017/10/library.jpg");
+}
+/* Add more images for more sections */
+/* Heading for Parallax Section */ 
+.paral h1 {
+color: rgba(255, 255, 255, 0.8);
+text-align: left;
+line-height: 100px;
+padding: 100px 50px;
+display: block;
+background-color: rgba($dark, 0.8);
+	p {
+		font-size: 2rem;
+		text-decoration: underline;
+		text-decoration-style: dotted;
+	}
+}
+
+	@media (max-width: 1554px) {
+		.paral h1 {
+			text-align: left;
+			padding: 75px 0 75px 25px;
+			font-size: 4rem;
+		}
+	}
+	@media (max-width: 1342px) {
+		.paral h1 {
+			font-size: 3.7rem;
+		}
+	}
+	@media (max-width: 1170px) {
+		.paral h1 {
+			font-size: 3.3rem;
+		}
+	}
+	@media (max-width: 860px) {
+		.paral h1 {
+			font-size: 2.7rem;
+		}
+	}
+	@media (max-width: 598px) {
+		.paral h1 {
+			font-size: 2.3rem;
+		}
+	}
+	@media (max-width: 468px) {
+		.paral h1 {
+			font-size: 2rem;
+		}
+	}
+	@media (max-width: 380px) {
+		.paral h1 {
+			font-size: 1.7rem;
+		}
+	}

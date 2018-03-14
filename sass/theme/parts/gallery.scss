@@ -1,0 +1,17 @@
+.gallery.gallery-size-thumbnail {
+	figure.gallery-item {
+		div.gallery-icon.landscape {
+			padding: 0.335rem;
+			margin: 1px;
+			background-color: $white;
+			&:hover {
+				background-color: $cc-main;
+			}
+			img {}
+			a {
+				display: block;
+				img.attachment-thumbnail.size-thumbnail {}
+			}
+		}
+	}
+}

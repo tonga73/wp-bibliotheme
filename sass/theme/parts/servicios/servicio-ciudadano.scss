@@ -1,0 +1,24 @@
+#servicio-ciudadano {
+	div {
+		h5 {
+			line-height: 175%;
+		}
+		h3 {
+			background-color: #17a2b8;
+			text-align: center;
+			padding: 1rem 0;
+			color: $cream;
+			margin: 0;
+		}
+		ul {
+			margin: 0;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius: 15px;
+			border: 1px solid $gray-light;
+			li {
+				padding:0.500rem 0;
+				font-size:1.1rem;
+			}		
+		}
+	}
+}

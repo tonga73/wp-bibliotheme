@@ -1,0 +1,24 @@
+.widget-area {
+	a {
+		padding: 0.5rem;
+		color: $black;
+	}
+	aside {
+		h3.widget-title {
+			background-color: $cc-dblue;
+			color: $cream;
+			padding: 0.755rem;
+			margin: 0;
+			margin-top: 1rem;
+		}		
+		ul {
+			margin: 0;
+			padding: 0.575rem 1rem;
+			list-style: none;
+			background-color: $white;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius: 15px;
+			border: 1px solid $gray-lighter;
+		}
+	}
+}

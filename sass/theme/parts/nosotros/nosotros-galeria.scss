@@ -1,0 +1,110 @@
+div#asociarse-requisitos {
+	h4 {
+		line-height: 150%;
+	}
+	ul {
+		margin: 0;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		border: 1px solid $gray-light;
+		li {
+			padding: 1rem 0;
+		}		
+	}
+}
+#asociarse-table, #asociarse-requisitos {
+	h3 {
+		background-color: #17a2b8;
+		text-align: center;
+		padding: 1rem 0;
+		color: $cream;
+		margin: 0;
+	}
+	div {
+		padding: 0;
+	}
+	ul {
+		li {
+			p {
+				font-size: 1.3rem;
+			}
+		}
+	}
+	#estudiante {
+		padding: 0;
+		background-color: $gray-lighter;
+		h4 {
+			margin: 0;
+			background-color: $cc-blue;
+			color: $cream;
+			padding: 0.755rem 0;
+		}
+		span {
+			color: $dark-lighter;
+			font-size: 1.1rem;
+			text-transform: uppercase;
+		}
+		p {
+			background-color: $cc-blue;
+			margin: 0;
+			padding: 1rem;
+			color: $white;
+			font-size: 2.5rem;
+		}		
+	}
+	#comun {
+		padding: 0;
+		background-color: $gray-lighter;
+		h4 {
+			margin: 0;
+			background-color: $cc-secondary;
+			color: $cream;
+			padding: 0.755rem 0;
+		}
+		span {
+			color: $dark-lighter;
+			font-size: 1.1rem;
+			text-transform: uppercase;
+		}
+		p {
+			background-color: $cc-secondary;
+			margin: 0;
+			padding: 1rem;
+			color: $white;
+			font-size: 2.5rem;
+		}		
+	}
+	#protector {
+		padding: 0;
+		background-color: $gray-lighter;
+		h4 {
+			margin: 0;
+			background-color: $cc-main;
+			color: $cream;
+			padding: 0.755rem 0;
+		}
+		span {
+			color: $dark-lighter;
+			font-size: 1.1rem;
+			text-transform: uppercase;
+		}
+		p {
+			background-color: $cc-main;
+			margin: 0;
+			padding: 1rem;
+			color: $white;
+			font-size: 2.5rem;
+		}		
+	}
+}
+div#precios-info {
+	margin: 0;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 1px solid $gray-light;		
+}
+.gallery {
+	figure.gallery-item {
+		width: 33,3%;
+	}
+}

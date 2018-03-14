@@ -1,0 +1,174 @@
+header {
+	.wrapper-fluid.wrapper-navbar{
+		padding: 0;
+		background-color: $navbar-bg;
+		a{
+			color: $navbar-color;
+		}
+		/* Main Navbar */
+		.navbar.navbar-expand-md{
+			padding: 0;
+			.container {
+				.navbar-brand.custom-logo-link{
+					img{
+						max-height: 70px;
+						width: auto;
+					}
+				}
+				button.navbar-toggler{
+					margin-top: 10px;
+					background-color: $cc-main;
+					width: 100%;
+					color: #fff;
+					border-radius: 0;
+					&:focus {
+						background-color: $cc-primary;
+					}
+				}
+				.navbar-collapse.justify-content-end{
+					.navbar-nav{
+						li {
+							.dropdown-menu.show {
+								display: block;
+								min-width: 20rem;
+								left: -130%;
+								margin: 0;
+								border: 0;
+								text-align: center;
+								background-color: $cc-main;
+								li {
+									background-color: $white;
+									width: 100%;
+									display: inline-block;
+									.nav-link {
+
+									}
+								}
+							}
+						}
+						.menu-item{
+							.nav-link, .nav-link.active a {
+								color:$dark;
+								display:block;
+								padding: 1.8rem;
+								&:hover{
+									background-color: $cc-main;
+									color: $cream;
+								}
+							}
+						}
+						.menu-item.active{
+							a{
+								background-color: $cc-main;
+								color: $cream;
+								font-weight: bold;
+							}
+						}
+					}
+				}			
+			}
+		}
+		/* Social Top Navbar */
+		nav.nav{
+			background-color: $cc-main;
+			width:100%;
+			display: flex;
+			justify-content: space-between;
+			#socialNav{
+				#social-menu{
+					width:100%;
+					li.left{
+						border-right: 1px solid $white;
+					}
+					li{
+						a.nav-link{
+							padding: 0 0.730rem;
+							color: $cream;
+							&:hover{
+								background-color: $navbar-bg;
+								color: $cc-main;
+							}
+						}
+					}
+				}		
+		        /* Social Icons Colors */
+		        .nav-item.facebook {
+		            &:hover {
+		                .nav-link {
+		                    i {
+		                        color: #3b5998;
+		                    }                    
+		                }
+		            }
+		        }
+		        .nav-item.instagram {
+		            &:hover {
+		                .nav-link {
+		                    i {
+		                        color: #cd486b;
+		                    }                    
+		                }
+		            }
+		        }
+		        .nav-item.twitter {
+		            &:hover {
+		                .nav-link {
+		                    i {
+		                        color: #0084b4;
+		                    }                    
+		                }
+		            }
+		        }
+		        .nav-item.envelope {
+		            &:hover {
+		                .nav-link {
+		                    i {
+		                        color: $gray;
+		                    }                    
+		                }
+		            }
+		        }
+			}
+			#registerNav{
+				#register-menu{
+					li.right{
+						border-left: 1px solid $white;
+					}
+					li{
+						a{
+							padding:0 0.750rem;
+							color: $cream;
+							&:hover{
+								background-color: $navbar-bg;
+								color: $cc-main;
+							}
+						}
+						.dropdown-menu.show {
+								display: block;
+								position: absolute;
+								left: -150%;
+								width: 100%; 
+								margin: 0;
+								border: 0;
+								text-align: center;
+								background-color: $cc-main;
+								border-radius: 0;
+								li {
+									background-color: $white;
+									width: 100%;
+									display: inline-block;
+									.nav-link {
+										color: $dark !important;
+										&:hover{
+											background-color: $cc-main;
+											color: $cream;
+										}																	
+									}
+								}
+							}
+					}
+				}
+			}
+		}
+	}	
+}
