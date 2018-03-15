@@ -30,7 +30,7 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php esc_html_e( 'Disculpa, pero no hay habido coincidencias con los términos buscados. Procura intentarlo de nuevo con palabras claves diferentes.', 'understrap' ); ?></p>
+			<p><?php esc_html_e( 'Disculpa, pero no han habido coincidencias entre los términos buscados. Procura intentarlo de nuevo con palabras claves diferentes.', 'understrap' ); ?></p>
 			<?php
 				get_search_form();
 		else : ?>

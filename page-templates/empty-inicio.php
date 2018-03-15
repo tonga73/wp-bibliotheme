@@ -52,21 +52,21 @@ get_header();
 			<hr/>
 			<h5 class="text-muted">Información General</h5>
 			<div class="list-group text-center">
-			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">
+			  <a href="http://bibliotecasobera.org/servicios/informacion-al-ciudadano/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">
 			    Información al Ciudadano
 			  </a>
-			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Catálogo</a>
-			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Novedades</a>
+			  <a target="_blank" href="http://2561.bepe.ar/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Catálogo</a>
+			  <a href="http://bibliotecasobera.org/blog/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Novedades</a>
 			</div>
 			<hr>
 			<h5 class="text-muted">Conocé la Biblioteca</h5>
 			<div class="list-group text-center">
-			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">
-			    Historia
+			  <a href="http://bibliotecasobera.org/nosotros/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">
+			    La Biblioteca Popular
 			  </a>
-			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Galería de Imágenes</a>
-			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Contacto</a>
-			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Hacerse Socio</a>
+			  <a href="http://bibliotecasobera.org/nosotros/galeria/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Galería de Imágenes</a>
+			  <a href="http://bibliotecasobera.org/contacto/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Contacto</a>
+			  <a href="http://bibliotecasobera.org/servicios/asociarse/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Hacerse Socio</a>
 			</div>
 			
 		</div>

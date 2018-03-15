@@ -38,9 +38,9 @@ get_header();
 			<div class="col-sm-12 col-md-6">
 				<div class="list-group">
 					<!-- Link IMAGENES -->
-				  <a href="http://localhost/proj/wordpressBIB/inicio/galeria/" class="list-group-item list-group-item-action flex-column align-items-start bg-light">
+				  <a href="http://bibliotecasobera.org/nosotros/galeria/" class="list-group-item list-group-item-action flex-column align-items-start bg-light">
 				    <div class="d-flex w-100 justify-content-between">
-				      <h5 class="mb-1"><strong><i class="fa fa-picture-o" aria-hidden="true"></i> Imágenes</strong></h5>
+				      <h5 class="mb-1"><strong>Imágenes</strong></h5>
 				    </div>
 				    <p class="mb-1">Imágenes de la comisión directiva, las instalaciones y enventos realizados en los espacios de la Biblioteca.</p>
 				    <small class="pull-right text-muted">ver galería</small>
@@ -48,7 +48,7 @@ get_header();
 				  <!-- Link HISTORIAS (modal)-->
 				  <a href="#" type="button" data-toggle="modal" data-target="#exampleModalLong" class="list-group-item list-group-item-action flex-column align-items-start bg-light">
 				    <div class="d-flex w-100 justify-content-between">
-				      <h5 class="mb-1"><strong><i class="fa fa-history" aria-hidden="true"></i> Historia</strong></h5>
+				      <h5 class="mb-1"><strong>Historia</strong></h5>
 				    </div>
 				    <p class="mb-1">Creada por resolución Nº 39 de la Comisión de Fomento de Oberá, con la firma de su presidente Dr. Gil Navarro, en Oberá el 9 de Septiembre de 1946, comenzó a prestar servicios al público el 30 de noviembre de 1947 en Villa Svea, sector oeste de la ciudad donde ésta fue fundada. (...) </p>
 				    <small class="pull-right text-muted">seguir leyendo</small>
@@ -111,7 +111,7 @@ get_header();
 					<!-- Link INSTITUCIONAL (modal) -->
 				  <a href="#" type="button" data-toggle="modal" data-target="#exampleModalLong2" class="list-group-item list-group-item-action flex-column align-items-start bg-light">
 				    <div class="d-flex w-100 justify-content-between">
-				      <h5 class="mb-1"><strong><i class="fa fa-sitemap" aria-hidden="true"></i> Organigrama Institucional</strong></h5>
+				      <h5 class="mb-1"><strong>Organigrama Institucional</strong></h5>
 				    </div>
 				    <p class="mb-1">Conocé a la comisión directiva de la Biblioteca Popular Domingo Faustino Sarmiento.</p>
 				    <small class="pull-right">ver</small>

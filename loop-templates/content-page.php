@@ -30,7 +30,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<i class="fa fa-user text-primary"></i>
+		
 		<?php edit_post_link( __( 'Editar', 'understrap' ), '<span class="edit-link">', '</span>' ); ?>
 
 	</footer><!-- .entry-footer -->

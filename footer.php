@@ -42,9 +42,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 						)
 					); ?>
 					
-					<button class="btn btn-block btn-secondary">
+					<a href="http://bibliotecasobera.org/contacto/" class="btn btn-block btn-secondary text-light">
 						<i class="fa fa-plus" aria-hidden="true"></i>
-					</button>
+					</a>
 			</div><!--col end -->
 
 			<div class="col-sm-12 col-md-6 col-lg-8 text-center">
