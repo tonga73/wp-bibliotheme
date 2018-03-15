@@ -30,7 +30,7 @@ get_header();
 			<h5>
 				Contamos con servicio de <strong>Información al Ciudadano</strong>, el cual está destinado a brindar información de todo tipo y orientación en general. <br/><br/>
 
-				Este servicio brinda el acceso a información del ámbito Municipal, Provincial y Nacional contando con el apoyo y asistencia técnica de la <a target="_blank" href="http://conabip.gob.ar/"><button class="btn btn-sm btn-outline-info"><i class="fa fa-external-link"></i> CONABIP</button></a> <br/><br/>
+				Este servicio brinda el acceso a información del ámbito Municipal, Provincial y Nacional contando con el apoyo y asistencia técnica de la <a target="_blank" href="http://conabip.gob.ar/"><button class="btn btn-sm btn-outline-secondary"><i class="fa fa-external-link"></i> CONABIP</button></a> <br/><br/>
 
 				Para nosotros es fundamental apoyar y fortalecer el rol de la <strong>Biblioteca Popular como Centro de Información</strong> en el cual todo ciudadano pueda acceder al conocimiento de sus derechos y encontrar respuestas a sus inquietudes. <br/><br/>
 				A través de este servicio podrán realizar los <i>trámites</i> listados.

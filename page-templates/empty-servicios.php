@@ -28,7 +28,7 @@ get_header();
 	<div class="row"
 	>	<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
 			<a target="_blank" title="Ir a Catálogo" href="http://2561.bepe.ar/">
-				<div class="servicios-icon bg-info text-white">
+				<div class="servicios-icon bg-dblue text-white">
 					<i class="fa fa-archive"></i>
 				</div>			
 			</a>
@@ -37,7 +37,7 @@ get_header();
 			</div>
 		</div>
 		<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
-			<div class="servicios-icon bg-info text-white">
+			<div class="servicios-icon bg-dblue text-white">
 				<i class="fa fa-user"></i>
 			</div>
 			<div class="servicios-description bg-light">
@@ -45,7 +45,7 @@ get_header();
 			</div>
 		</div>
 		<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
-			<div class="servicios-icon bg-info text-white">
+			<div class="servicios-icon bg-dblue text-white">
 				<i class="fa fa-book"></i>
 			</div>
 			<div class="servicios-description bg-light">
@@ -53,7 +53,7 @@ get_header();
 			</div>
 		</div>
 		<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
-			<div class="servicios-icon bg-info text-white">
+			<div class="servicios-icon bg-dblue text-white">
 				<i class="fa fa-file"></i>
 			</div>
 			<div class="servicios-description bg-light">
@@ -61,7 +61,7 @@ get_header();
 			</div>
 		</div>
 		<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
-			<div class="servicios-icon bg-info text-white">
+			<div class="servicios-icon bg-dblue text-white">
 				<i class="fa fa-copy"></i>
 			</div>
 			<div class="servicios-description bg-light">
@@ -69,7 +69,7 @@ get_header();
 			</div>
 		</div>
 		<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
-			<div class="servicios-icon bg-info text-white">
+			<div class="servicios-icon bg-dblue text-white">
 				<i class="fa fa-wifi"></i>
 			</div>
 			<div class="servicios-description bg-light">
@@ -77,7 +77,7 @@ get_header();
 			</div>
 		</div>
 		<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
-			<div class="servicios-icon bg-info text-white">
+			<div class="servicios-icon bg-dblue text-white">
 				<i class="fa fa-users"></i>
 			</div>
 			<div class="servicios-description bg-light">
@@ -85,7 +85,7 @@ get_header();
 			</div>
 		</div>
 		<div id="servicios-card" class="col-sm-6 col-md-4 col-lg-3 text-center">
-			<div class="servicios-icon bg-info text-white">
+			<div class="servicios-icon bg-dblue text-white">
 				<i class="fa fa-newspaper-o"></i>
 			</div>
 			<div class="servicios-description bg-light">

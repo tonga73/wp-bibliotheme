@@ -9609,6 +9609,21 @@ header .wrapper-fluid.wrapper-navbar {
             background-color: #6d5996;
             color: #dcdcdc; }
 
+blockquote.quotescollection-quote {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3rem; }
+  blockquote.quotescollection-quote p code {
+    color: #626262 !important;
+    font-size: 1.5rem;
+    letter-spacing: 1.175px;
+    font-family: 'Questrial', serif; }
+  blockquote.quotescollection-quote code footer.atribution {
+    color: #181818 !important; }
+    blockquote.quotescollection-quote code footer.atribution cite.author {
+      color: #181818 !important; }
+    blockquote.quotescollection-quote code footer.atribution cite.title.source a {
+      color: #181818 !important; }
+
 .jumbotron {
   border-radius: 0;
   margin-bottom: 1rem;
@@ -9648,16 +9663,16 @@ header .wrapper-fluid.wrapper-navbar {
   background-image: url("http://localhost/proj/wordpressBIB/wp-content/uploads/2018/03/100_0841.jpg"); }
 
 .page-nosotros {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f2/Biblioteca_de_la_Escuela_Superior_de_Ingenier%C3%ADa_de_la_Universidad_de_C%C3%A1diz.jpg"); }
+  background-image: url("http://localhost/proj/wordpressBIB/wp-content/uploads/2018/03/generales1.jpg"); }
 
 .page-cuentas {
   background-image: url("http://www.diariodecultura.com.ar/wp-content/uploads/2017/11/libros_antiguos.jpg"); }
 
 .page-contacto {
-  background-image: url("http://www.diariodecultura.com.ar/wp-content/uploads/2017/11/libros_antiguos.jpg"); }
+  background-image: url("https://c.pxhere.com/photos/8b/6e/telephone_communications_call_dial_line_business_telemarketing_on_the_phone-647962.jpg!d"); }
 
 .page-servicios-generales {
-  background-image: url("http://www.almussafes.es/sites/almussafes.portalesmunicipales.es/files/customcssjs/images/departaments/biblioteca/biblioteca3.jpg"); }
+  background-image: url("http://localhost/proj/wordpressBIB/wp-content/uploads/2018/03/socios1.jpg"); }
 
 .page-servicios-servicio-ciudadano {
   background-image: url("https://librarybuildings.info/sites/default/files/bibl-info-8-mar-2013-1703.jpg"); }
@@ -9714,6 +9729,9 @@ header .wrapper-fluid.wrapper-navbar {
 
 .bg-dblue {
   background-color: #5868A3; }
+
+.bg-body {
+  background-color: #dcdcdc; }
 
 .breadcrumb {
   border-radius: 0; }
@@ -9886,7 +9904,7 @@ div#precios-info {
   line-height: 175%; }
 
 #servicio-ciudadano div h3 {
-  background-color: #17a2b8;
+  background-color: #5868A3;
   text-align: center;
   padding: 1rem 0;
   color: #dcdcdc;
@@ -9913,7 +9931,7 @@ div#asociarse-requisitos ul {
     padding: 1rem 0; }
 
 #asociarse-table h3, #asociarse-requisitos h3 {
-  background-color: #17a2b8;
+  background-color: #5868A3;
   text-align: center;
   padding: 1rem 0;
   color: #dcdcdc;
@@ -10009,38 +10027,38 @@ div#precios-info {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px; }
 
-#wrapper-index .content-area .site-main article.post header.entry-header h2.entry-title {
+#wrapper-index .content-area .site-main article.post header.entry-header h2.entry-title, #archive-wrapper .content-area .site-main article.post header.entry-header h2.entry-title {
   margin: 0;
   letter-spacing: 0.975px;
   line-height: 200%; }
-  #wrapper-index .content-area .site-main article.post header.entry-header h2.entry-title a {
+  #wrapper-index .content-area .site-main article.post header.entry-header h2.entry-title a, #archive-wrapper .content-area .site-main article.post header.entry-header h2.entry-title a {
     padding: 0.750rem;
     font-weight: bold;
     color: #dcdcdc;
     display: block;
     background-color: #625EAD; }
-    #wrapper-index .content-area .site-main article.post header.entry-header h2.entry-title a:hover {
+    #wrapper-index .content-area .site-main article.post header.entry-header h2.entry-title a:hover, #archive-wrapper .content-area .site-main article.post header.entry-header h2.entry-title a:hover {
       color: #fff;
       background-color: #6d5996;
       text-decoration: none; }
 
-#wrapper-index .content-area .site-main article.post header.entry-header div.entry-meta {
+#wrapper-index .content-area .site-main article.post header.entry-header div.entry-meta, #archive-wrapper .content-area .site-main article.post header.entry-header div.entry-meta {
   color: #494949;
   background-color: #939393;
   padding: 0.750rem; }
-  #wrapper-index .content-area .site-main article.post header.entry-header div.entry-meta a {
+  #wrapper-index .content-area .site-main article.post header.entry-header div.entry-meta a, #archive-wrapper .content-area .site-main article.post header.entry-header div.entry-meta a {
     font-weight: bold;
     color: #dcdcdc; }
-    #wrapper-index .content-area .site-main article.post header.entry-header div.entry-meta a:hover {
+    #wrapper-index .content-area .site-main article.post header.entry-header div.entry-meta a:hover, #archive-wrapper .content-area .site-main article.post header.entry-header div.entry-meta a:hover {
       color: #fff; }
 
-#wrapper-index .content-area .site-main article.post img {
+#wrapper-index .content-area .site-main article.post img, #archive-wrapper .content-area .site-main article.post img {
   width: 100%; }
 
-#wrapper-index .content-area .site-main article.post div.entry-content {
+#wrapper-index .content-area .site-main article.post div.entry-content, #archive-wrapper .content-area .site-main article.post div.entry-content {
   padding: 0.775rem; }
 
-#wrapper-index .content-area .site-main article.post footer.entry-footer {
+#wrapper-index .content-area .site-main article.post footer.entry-footer, #archive-wrapper .content-area .site-main article.post footer.entry-footer {
   margin: 1rem 0;
   padding: 1.5rem;
   background-color: #625EAD;
@@ -10048,21 +10066,21 @@ div#precios-info {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   color: #313131; }
-  #wrapper-index .content-area .site-main article.post footer.entry-footer a {
+  #wrapper-index .content-area .site-main article.post footer.entry-footer a, #archive-wrapper .content-area .site-main article.post footer.entry-footer a {
     font-weight: bold;
     color: #dcdcdc; }
-    #wrapper-index .content-area .site-main article.post footer.entry-footer a:hover {
+    #wrapper-index .content-area .site-main article.post footer.entry-footer a:hover, #archive-wrapper .content-area .site-main article.post footer.entry-footer a:hover {
       color: #fff; }
-  #wrapper-index .content-area .site-main article.post footer.entry-footer span {
+  #wrapper-index .content-area .site-main article.post footer.entry-footer span, #archive-wrapper .content-area .site-main article.post footer.entry-footer span {
     display: block;
     line-height: 200%;
     cursor: default; }
-    #wrapper-index .content-area .site-main article.post footer.entry-footer span a {
+    #wrapper-index .content-area .site-main article.post footer.entry-footer span a, #archive-wrapper .content-area .site-main article.post footer.entry-footer span a {
       cursor: pointer; }
-  #wrapper-index .content-area .site-main article.post footer.entry-footer span.edit-link, #wrapper-index .content-area .site-main article.post footer.entry-footer span.screen-reader-text {
+  #wrapper-index .content-area .site-main article.post footer.entry-footer span.edit-link, #wrapper-index .content-area .site-main article.post footer.entry-footer span.screen-reader-text, #archive-wrapper .content-area .site-main article.post footer.entry-footer span.edit-link, #archive-wrapper .content-area .site-main article.post footer.entry-footer span.screen-reader-text {
     display: inherit !important;
     cursor: pointer; }
-    #wrapper-index .content-area .site-main article.post footer.entry-footer span.edit-link i, #wrapper-index .content-area .site-main article.post footer.entry-footer span.screen-reader-text i {
+    #wrapper-index .content-area .site-main article.post footer.entry-footer span.edit-link i, #wrapper-index .content-area .site-main article.post footer.entry-footer span.screen-reader-text i, #archive-wrapper .content-area .site-main article.post footer.entry-footer span.edit-link i, #archive-wrapper .content-area .site-main article.post footer.entry-footer span.screen-reader-text i {
       cursor: default; }
 
 .widget-area a {
@@ -10088,6 +10106,7 @@ div#precios-info {
 #single-wrapper .row .content-area .site-main {
   padding: 0.5rem; }
   #single-wrapper .row .content-area .site-main article.post header.entry-header h1.entry-title {
+    color: #626262;
     margin: 0;
     font-weight: bold;
     padding: 1.5rem;

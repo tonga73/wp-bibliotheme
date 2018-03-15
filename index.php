@@ -20,9 +20,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		<h1 class="display-3"><?php single_post_title(); ?></h1>	
 	</div>
 </div>
-<?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
 <div class="wrapper" id="wrapper-index">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
