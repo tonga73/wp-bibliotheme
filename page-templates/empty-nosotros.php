@@ -38,7 +38,7 @@ get_header();
 			<div class="col-sm-12 col-md-6">
 				<div class="list-group">
 					<!-- Link IMAGENES -->
-				  <a href="http://bibliotecasobera.org/nosotros/galeria/" class="list-group-item list-group-item-action flex-column align-items-start bg-light">
+				  <a href="http://bibliotecasobera.org/nosotros/galeria/" type="button" class="list-group-item list-group-item-action flex-column align-items-start bg-light">
 				    <div class="d-flex w-100 justify-content-between">
 				      <h5 class="mb-1"><strong>Imágenes</strong></h5>
 				    </div>

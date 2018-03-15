@@ -1,3 +1,6 @@
+.dropdown-toggle::after {
+    display:none !important;
+}
 header {
 	.wrapper-fluid.wrapper-navbar{
 		padding: 0;

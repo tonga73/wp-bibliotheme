@@ -9513,6 +9513,9 @@ body {
     #wrapper-footer .container .row #footer-contact a:hover, #wrapper-footer .container .row #footer-contact a:focus {
       color: #9958a3; }
 
+.dropdown-toggle::after {
+  display: none !important; }
+
 header .wrapper-fluid.wrapper-navbar {
   padding: 0;
   background-color: #fff;

@@ -13,7 +13,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_sidebar( 'footerfull' ); ?>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">
+<button onclick="topFunction()" id="myBtn" title="Subir">
 <i class="fa fa-arrow-up"></i>
 </button> 
 
