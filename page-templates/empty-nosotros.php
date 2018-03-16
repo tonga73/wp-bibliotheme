@@ -68,6 +68,9 @@ get_header();
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-sm-12 col-md-8 offset-md-2">
+										<div class="p-3 bg-white text-center">
+											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/img059.jpg" alt="">											
+										</div>
 										<hr>
 										<h5>											
 											Creada por resolución Nº 39 de la Comisión de Fomento de Oberá, con la firma de su presidente Dr. Gil Navarro, en Oberá el 9 de Septiembre de 1946, comenzó a prestar servicios al público el 30 de noviembre de 1947 en Villa Svea, sector oeste de la ciudad donde ésta fue fundada.<br/><br/>
@@ -84,9 +87,16 @@ get_header();
 										</h5>
 									</div>
 									<div class="col-sm-12 col-md-8 offset-md-2">
+										<div class="p-3 bg-white text-center">
+											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/img058.jpg" alt="">											
+										</div>
+										<hr>
 										<h5>											
 											En ese lugar se levanta su actual magnífico edificio propio, construcción aun parcial. Este edificio fue construido mediante grandes sacrificios y durante varios años de labor, constantemente para ello con la colaboración de los gobiernos provinciales y municipales y especialmente de los socios y de la comunidad toda de Oberá. Es un edificio de dos plantas. En la actualidad se hallan totalmente terminados 544 metros cuadrados de superficie, que incluyen la amplia sala central, salas especiales y oficina. Una vez terminado todo el proyecto edilicio, la biblioteca va a contar con una superficie cubierta cercana a los 1000 metros cubiertos.<br/><br/>
-
+										<div class="p-3 bg-white text-center">
+											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025103_602425076634433_5516926776889764313_o.jpg" alt="">											
+										</div>
+										<hr>
 											Cabe destacar también que la Biblioteca Popular Domingo Faustino Sarmiento de Oberá posee actualmente unos 30.000 libros, que comprenden todos los tópicos o materias. Asimismo reciben diariamente todos los principales diarios de la Provincia y los periódicos locales, como revistas y folletos literarios de todo tipo, los que están permanentemente a disposición de los lectores.-<br/><br/>
 
 											La entrada a la biblioteca y la utilización de los textos es totalmente libre y gratuita para todos y los socios pueden retirar por tiempo determinado, novelas, textos de información general y libros varios, no así aquellos afectados al estudio. <br/><br/>
@@ -96,6 +106,10 @@ get_header();
 													echo date('y', strtotime("-1947 year"));
 												?>
 											largos años de vida.<br/><br/>
+											<div class="p-3 bg-white text-center">
+												<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025180_602424713301136_6170567513259057056_o.jpg" alt="">											
+											</div>
+											<hr>
 										</h5>
 										<hr>
 									</div>
@@ -129,7 +143,7 @@ get_header();
 					      <div class="modal-body">
 							<div class="container-fluid">
 								<div class="row">
-									<div class="col-sm-12 text-center">
+									<div class="col-sm-12 text-center p-0">
 								       <h2>COMISIÓN DIRECTIVA  
 											<?php
 											echo date('Y');
@@ -137,49 +151,57 @@ get_header();
 								       </h2>
 								       <hr>									
 									</div>
-									<div class="col-md-6">
+									<div class="col-sm-12 col-md-6">
 							        	<ul class="list-group">
 							        		<li class="list-group-item bg-body">
 							        			<h4 class="list-group-item bg-main text-light">Presidente</h4>
-							        			<h3 class="p-3 text-center"> Hugo Daniel Mitoire</h3>
+							        			<h3 class="p-2"> Hugo Daniel Mitoire</h3>
 							        		</li>
 							        		<li class="list-group-item bg-body">
 							        			<h4 class="list-group-item bg-main text-light">Vice - Presidenta</h4>
-							        			<h3 class="p-3 text-center"> María Amelia Ponce</h3>
+							        			<h3 class="p-2"> María Amelia Ponce</h3>
 							        		</li>
 							        		<li class="list-group-item bg-body">
 							        			<h4 class="list-group-item bg-main text-light">Secretaria</h4>
-							        			<h3 class="p-3 text-center"> Blanca Rios</h3>
+							        			<h3 class="p-2"> Blanca Rios</h3>
 							        		</li>
 							        		<li class="list-group-item bg-body">
 							        			<h4 class="list-group-item bg-main text-light">Pro - Secretaria</h4>
-							        			<h3 class="p-3 text-center"> Susana Tröndle</h3>
+							        			<h3 class="p-2"> Susana Tröndle</h3>
 							        		</li>
 							        		<li class="list-group-item bg-body">
 							        			<h4 class="list-group-item bg-main text-light">Tesorera</h4>
-							        			<h3 class="p-3 text-center"> Mirtha Haydee Petry</h3>
+							        			<h3 class="p-2"> Mirtha Haydee Petry</h3>
 							        		</li>
 							        		<li class="list-group-item bg-body">
 							        			<h4 class="list-group-item bg-main text-light">Pro - Tesorera</h4>
-							        			<h3 class="p-3 text-center"> Elva Alicia Tatarinöf</h3>
+							        			<h3 class="p-2"> Elva Alicia Tatarinöf</h3>
 							        		</li>
 							        	</ul>							        
 									</div>
-									<div class="col-md-6">
+									<div class="col-sm-12 col-md-6">
 										<ul class="list-group">
 								        	<h4 class="list-group-item bg-dblue text-light">Vocales Titulares:</h4>
 								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Primera</h5> <h3>Isolina Dos Santos</h3></li>
 								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Segunda</h5> <h3>Susana Hortensia Guzmán</h3></li>
 								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Tercera</h5> <h3>Ana María Grosco</h3></li>
+								        		<div class="bg-white mt-2 p-3">
+								        			<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025326_602425809967693_4182143899437999125_o.jpg" alt="">
+								        			
+								        		</div>
+									</div>
+									<div class="col-sm-12 col-md-6">
 								        	<h4 class="list-group-item bg-dblue text-light">Vocales Suplentes:</h4>
 								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Primera</h5> <h3>Rosa E. Peruzzo</h3></li>
 								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Segunda</h5> <h3>Rossana Szaban</h3></li>
-								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Tercero</h5> <h3>Horacio Wall</h3></li>
+								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Tercero</h5> <h3>Horacio Wall</h3></li>										
+									</div>
+									<div class="col-sm-12 col-md-6">
 								        	<h4 class="list-group-item bg-dblue text-light">Revisores de cuenta: </h4>
 								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Primero</h5> <h3>Ernesto Rubén Maletti</h3></li>
-								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Segunda</h5> <h3>Graciela Esther Villanueva</h3></li>
-							        	</ul>
+								        		<li class="list-group-item bg-body"> <h5 class="list-group-item bg-main p-1 text-light">Segunda</h5> <h3>Graciela Esther Villanueva</h3></li>										
 									</div>
+							        	</ul>
 								</div>
 								<hr>
 							</div>
