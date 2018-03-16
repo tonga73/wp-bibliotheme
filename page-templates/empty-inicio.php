@@ -37,7 +37,7 @@ get_header();
 </div>
 <div class="container">
 	<div class="row">
-		<!-- Frontpage Featured Links -->
+		<!-- Frontpage Quotes -->
 		<div class="col-lg-6">
 			<h3 class="p-3">Citas</h3>
 			<hr/>
@@ -47,6 +47,7 @@ get_header();
 			endwhile;
 			?>
 		</div>
+		<!-- Frontpage Featured Links -->
 		<div class="col-lg-6">
 			<h3 class="p-3 text-right">Enlaces Útiles</h3>
 			<hr/>
@@ -58,7 +59,10 @@ get_header();
 			  <a target="_blank" href="http://2561.bepe.ar/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Catálogo</a>
 			  <a href="http://bibliotecasobera.org/blog/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Novedades</a>
 			</div>
-			<hr>
+			<!-- Small Divider -->
+			<div class="col-sm-2 offset-sm-5">
+				<hr>
+			</div>
 			<h5 class="text-muted">Conocé la Biblioteca</h5>
 			<div class="list-group text-center">
 			  <a href="http://bibliotecasobera.org/nosotros/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">
@@ -70,6 +74,10 @@ get_header();
 			</div>
 			
 		</div>
+		<!-- Small Divider -->
+		<div class="col-sm-4 offset-sm-4">
+			<hr>
+		</div>
 		<!-- Frontpage Entry Section -->
 		<div class="col-lg-12">
 			<div class="row">
@@ -78,7 +86,7 @@ get_header();
 					<hr/>					
 				</div>
 					<ul style="list-style: none; cursor: default;" class="nav">
-					<?php $the_query = new WP_Query( 'posts_per_page=2' ); ?>
+					<?php $the_query = new WP_Query( 'posts_per_page=4' ); ?>
 					 
 					<?php while ($the_query -> have_posts()) : $the_query -> the_post();?>
 					<div class="col-lg-6">
@@ -100,11 +108,16 @@ get_header();
 					</ul>					
 				
 			</div>
+			<div class="col-sm-6 offset-sm-3 text-center p-3">
+				<a href="#" class="btn btn-block btn-outline-secondary"><i class="fa fa-files-o" aria-hidden="true"></i> Todas las publicaciones</a>
+				
+			</div>
 		</div>
-		<!-- Frontpage Contact Section -->
+		<!-- Small Divider -->
 		<div class="col-sm-2 offset-sm-5">
 			<hr>
 		</div>
+		<!-- Frontpage Contact Section -->
 		<div class="col-sm-12 text-center p-5">
 			<span>
 				<h1 class="text-muted p-3">
@@ -118,27 +131,28 @@ get_header();
 					<i class="fa fa-facebook" aria-hidden="true"></i>
 				</a>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModalCenter">
-  <i class="fa fa-phone" aria-hidden="true"></i>
-</button>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModalCenter">
+					  <i class="fa fa-phone" aria-hidden="true"></i>
+					</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Número telefónico</h5>
-      </div>
-      <div class="modal-body">
-        <h2>(+54) 03755 - 425832</h2>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
-      </div>
-    </div>
-  </div>
-</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLongTitle">Número telefónico</h5>
+					      </div>
+					      <div class="modal-body">
+					        <h2>(+54) 03755 - 425832</h2>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
 				<a target="_blank" class="btn btn-info btn-lg" href="https://www.google.com/maps/place/Biblioteca+Domingo+Faustino+Sarmiento/@-27.4829777,-55.1210606,17z/data=!3m1!4b1!4m5!3m4!1s0x94f8f53f7aea882d:0xe15219d842246b9c!8m2!3d-27.4829777!4d-55.1188719">
 					<i class="fa fa-map-marker" aria-hidden="true"></i>
 				</a>

@@ -10,17 +10,9 @@ blockquote.quotescollection-quote {
 		}
 	}
 	code {
-		footer.atribution {
-			color: $dark !important;
-			cite.author {
-				color: $dark !important;
-			}
-			cite.title.source {
-				a {
-					color: $dark !important;
-
-				}
-			}
-		}
+		color:$dark;
+		font-family: 'Questrial', serif;
+		font-size: 1.1rem;
+		letter-spacing:1px;
 	}
 }

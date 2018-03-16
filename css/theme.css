@@ -9620,12 +9620,11 @@ blockquote.quotescollection-quote {
     font-size: 1.5rem;
     letter-spacing: 1.175px;
     font-family: 'Questrial', serif; }
-  blockquote.quotescollection-quote code footer.atribution {
-    color: #181818 !important; }
-    blockquote.quotescollection-quote code footer.atribution cite.author {
-      color: #181818 !important; }
-    blockquote.quotescollection-quote code footer.atribution cite.title.source a {
-      color: #181818 !important; }
+  blockquote.quotescollection-quote code {
+    color: #181818;
+    font-family: 'Questrial', serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px; }
 
 .jumbotron {
   border-radius: 0;
