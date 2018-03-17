@@ -9569,7 +9569,7 @@ header .wrapper-fluid.wrapper-navbar {
       header .wrapper-fluid.wrapper-navbar nav.nav #socialNav #social-menu {
         width: 100%; }
         header .wrapper-fluid.wrapper-navbar nav.nav #socialNav #social-menu li.left {
-          border-right: 1px solid #fff; }
+          border-right: 1px solid #dcdcdc; }
         header .wrapper-fluid.wrapper-navbar nav.nav #socialNav #social-menu li a.nav-link {
           padding: 0 0.687rem;
           color: #dcdcdc; }
@@ -9585,7 +9585,7 @@ header .wrapper-fluid.wrapper-navbar {
       header .wrapper-fluid.wrapper-navbar nav.nav #socialNav .nav-item.envelope:hover .nav-link i {
         color: #939393; }
     header .wrapper-fluid.wrapper-navbar nav.nav #registerNav #register-menu li.right {
-      border-left: 1px solid #fff; }
+      border-left: 1px solid #dcdcdc; }
     header .wrapper-fluid.wrapper-navbar nav.nav #registerNav #register-menu li a {
       padding: 0 0.750rem;
       color: #dcdcdc; }
