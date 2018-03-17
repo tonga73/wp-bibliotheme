@@ -61,7 +61,7 @@ get_header();
 					      <div class="modal-header">
 					        <h5 class="modal-title" id="exampleModalLongTitle">Historia · <small class="text-muted">Biblioteca Popular Sarmiento | Oberá</small></h5>
 					        <button type="button" class="btn btn-sm close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">volver <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+					          <small><span aria-hidden="true text-muted">volver <i class="fa fa-chevron-right" aria-hidden="true"></i></span></small>
 					        </button>
 					      </div>
 					      <div class="modal-body">
@@ -136,7 +136,7 @@ get_header();
 					      <div class="modal-header">
 					        <h5 class="modal-title" id="exampleModalLongTitle">Organigrama Institucional · <small class="text-muted">Biblioteca Popular Sarmiento | Oberá</small></h5>
 					        <button type="button" class="btn btn-sm close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">volver <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+					          <small><span aria-hidden="true text-muted">volver <i class="fa fa-chevron-right" aria-hidden="true"></i></span></small>
 					        </button>
 					      </div>
 					      <div class="modal-body">
