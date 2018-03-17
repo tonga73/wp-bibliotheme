@@ -6,13 +6,8 @@
  */
 
 ?>
+
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
-	<header class="entry-header">
-
-		<?php the_title( '<h1 class="entry-title text-muted">', '</h1><hr/>' ); ?>
-
-	</header><!-- .entry-header -->
 
 	<?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
 

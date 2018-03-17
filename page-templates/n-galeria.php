@@ -10,15 +10,12 @@
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<div class="breadcrumb m-0 bg-dblue text-light">
+<div class="jumbotron">
 	<div class="container">
-		<h4 class="m-0 p-0">
-			<!-- Breadcrumb -->
-			<?php the_breadcrumb(); ?>
-			<!-- Fin Breadcrumb -->			
-		</h4>
+		<h1 class="display-3"><?php single_post_title(); ?></h1>	
 	</div>
 </div>
+
 <div class="wrapper" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
