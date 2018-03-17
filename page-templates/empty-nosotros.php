@@ -60,8 +60,8 @@ get_header();
 					    <div style="height: auto; min-height:100%; border-radius:0;" class="modal-content bg-body">
 					      <div class="modal-header">
 					        <h5 class="modal-title" id="exampleModalLongTitle">Historia · <small class="text-muted">Biblioteca Popular Sarmiento | Oberá</small></h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
+					        <button type="button" class="btn btn-sm close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">volver <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
 					        </button>
 					      </div>
 					      <div class="modal-body">
@@ -107,17 +107,16 @@ get_header();
 												?>
 											largos años de vida.<br/><br/>
 											<div class="p-3 bg-white text-center">
-												<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025180_602424713301136_6170567513259057056_o.jpg" alt="">											
+												<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025180_602424713301136_6170567513259057056_o.jpg" alt="">										
 											</div>
 											<hr>
 										</h5>
-										<hr>
 									</div>
 								</div>
 							</div>
 					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+					      <div class="modal-footer justify-content-center">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
 					      </div>
 					    </div>
 					  </div>
@@ -136,8 +135,8 @@ get_header();
 					    <div style="height: auto; min-height:100%; border-radius:0;" class="modal-content bg-body">
 					      <div class="modal-header">
 					        <h5 class="modal-title" id="exampleModalLongTitle">Organigrama Institucional · <small class="text-muted">Biblioteca Popular Sarmiento | Oberá</small></h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
+					        <button type="button" class="btn btn-sm close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">volver <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
 					        </button>
 					      </div>
 					      <div class="modal-body">
@@ -206,8 +205,8 @@ get_header();
 								<hr>
 							</div>
 					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+					      <div class="modal-footer justify-content-center">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
 					      </div>
 					    </div>
 					  </div>

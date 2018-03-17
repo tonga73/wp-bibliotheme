@@ -109,7 +109,7 @@ get_header();
 				
 			</div>
 			<div class="col-sm-6 offset-sm-3 text-center p-3">
-				<a href="#" class="btn btn-block btn-outline-secondary"><i class="fa fa-files-o" aria-hidden="true"></i> Todas las publicaciones</a>
+				<a href="http://bibliotecasobera.org/blog/" class="btn btn-block btn-outline-secondary"><i class="fa fa-files-o" aria-hidden="true"></i> Todas las publicaciones</a>
 				
 			</div>
 		</div>

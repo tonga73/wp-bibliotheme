@@ -32,31 +32,40 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- ******************* The Navbar Area ******************* -->
 	<header>
 		<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
-			<nav class="nav">
-					<!-- The WordPress Menu goes here -->
-					<?php wp_nav_menu(
-						array(
-							'theme_location'  => 'secondary',
-							'container_class' => '',
-							'container_id'    => 'socialNav',
-							'menu_class'      => 'nav navbar-expand-lg',
-							'fallback_cb'     => '',
-							'menu_id'         => 'social-menu',
-							'walker'          => new understrap_WP_Bootstrap_Navwalker(),
-						)
-					); ?>
-					<!-- The WordPress Menu goes here -->
-					<?php wp_nav_menu(
-						array(
-							'theme_location'  => 'register',
-							'container_class' => '',
-							'container_id'    => 'registerNav',
-							'menu_class'      => 'nav justify-content-end',
-							'fallback_cb'     => '',
-							'menu_id'         => 'register-menu',
-							'walker'          => new understrap_WP_Bootstrap_Navwalker(),
-						)
-					); ?>
+			<nav class="nav navbar navbar-expand-md justify-content-between">
+
+				<?php if ( 'container' == $container ) : ?>
+					<div class="container">
+				<?php endif; ?>
+								<!-- Menú Social -->
+								<?php wp_nav_menu(
+									array(
+										'theme_location'  => 'secondary',
+										'container_class' => '',
+										'container_id'    => 'socialNav',
+										'menu_class'      => 'nav',
+										'fallback_cb'     => '',
+										'menu_id'         => 'social-menu',
+										'walker'          => new understrap_WP_Bootstrap_Navwalker(),
+									)
+								); ?>								
+
+								<!-- Menú de Registro -->
+								<?php wp_nav_menu(
+									array(
+										'theme_location'  => 'register',
+										'container_class' => '',
+										'container_id'    => 'registerNav',
+										'menu_class'      => 'nav pull-right',
+										'fallback_cb'     => '',
+										'menu_id'         => 'register-menu',
+										'walker'          => new understrap_WP_Bootstrap_Navwalker(),
+									)
+								); ?>			
+				<?php if ( 'container' == $container ) : ?>
+					</div><!-- .container -->
+				<?php endif; ?>
+
 			</nav><!-- .site-navigation -->
 
 			<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
