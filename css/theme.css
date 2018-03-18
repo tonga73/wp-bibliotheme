@@ -9572,7 +9572,7 @@ header .wrapper-fluid.wrapper-navbar {
           border-right: 1px solid #dcdcdc; }
         header .wrapper-fluid.wrapper-navbar nav.nav #socialNav #social-menu li a.nav-link {
           padding: 0 0.687rem;
-          color: #dcdcdc; }
+          color: #fff; }
           header .wrapper-fluid.wrapper-navbar nav.nav #socialNav #social-menu li a.nav-link:hover {
             background-color: #fff;
             color: #6d5996; }
@@ -9588,7 +9588,7 @@ header .wrapper-fluid.wrapper-navbar {
       border-left: 1px solid #dcdcdc; }
     header .wrapper-fluid.wrapper-navbar nav.nav #registerNav #register-menu li a {
       padding: 0 0.750rem;
-      color: #dcdcdc; }
+      color: #fff; }
       header .wrapper-fluid.wrapper-navbar nav.nav #registerNav #register-menu li a:hover {
         background-color: #fff;
         color: #6d5996; }
