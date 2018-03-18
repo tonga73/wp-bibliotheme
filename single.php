@@ -10,11 +10,11 @@ $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 <div class="breadcrumb m-0 bg-dblue text-light">
 	<div class="container">
-		<h4 class="m-0 p-0">
+		<h5 class="m-0 p-0">
 			<!-- Breadcrumb -->
 			<?php the_breadcrumb(); ?>
 			<!-- Fin Breadcrumb -->			
-		</h4>
+		</h5>
 	</div>
 </div>
 

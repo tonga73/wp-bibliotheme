@@ -12,11 +12,11 @@ get_header();
 ?>
 <div class="breadcrumb m-0 bg-dblue text-light">
 	<div class="container">
-		<h4 class="m-0 p-0">
+		<h5 class="m-0 p-0">
 			<!-- Breadcrumb -->
 			<?php the_breadcrumb(); ?>
 			<!-- Fin Breadcrumb -->			
-		</h4>
+		</h5>
 	</div>
 </div>
 <div class="jumbotron-para paral page-contacto">
@@ -42,7 +42,7 @@ endwhile;
 			<div class="col-md-12">
 				<div class="row">
 					<div id="servicios-card" class="col-sm-12 col-md-6 text-center">
-							<a target="_blank" title="Ir a Catálogo" href="http://2561.bepe.ar/">
+							<a target="_blank" title="Ver en mapa" href="https://www.google.com/maps/place/Biblioteca+Domingo+Faustino+Sarmiento/@-27.4829777,-55.1210606,17z/data=!3m1!4b1!4m5!3m4!1s0x94f8f53f7aea882d:0xe15219d842246b9c!8m2!3d-27.4829777!4d-55.1188719/">
 								<div class="servicios-icon bg-dblue text-white">
 									<i class="fa fa-map-marker"></i>
 								</div>			

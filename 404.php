@@ -26,14 +26,14 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 						<header class="page-header">
 
-							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.',
+							<h1 class="page-title"><?php esc_html_e( 'Disculpa, no se pudo encontrar la página que buscas.',
 							'understrap' ); ?></h1>
 
 						</header><!-- .page-header -->
 
 						<div class="page-content">
 
-							<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?',
+							<p><?php esc_html_e( 'Al parecer no hay nada en esta ubicación. ¿Tal vez probando con alguno de estos enlaces o una búsqueda?',
 							'understrap' ); ?></p>
 
 							<?php get_search_form(); ?>
@@ -44,7 +44,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 								<div class="widget widget_categories">
 
-									<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'understrap' ); ?></h2>
+									<h2 class="widget-title"><?php esc_html_e( 'Categorías Destacadas', 'understrap' ); ?></h2>
 
 									<ul>
 										<?php
@@ -65,7 +65,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 							<?php
 
 							/* translators: %1$s: smiley */
-							$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'understrap' ), convert_smilies( ':)' ) ) . '</p>';
+							$archive_content = '<p>' . sprintf( esc_html__( 'Intenta buscando en los archivos mensuales. %1$s', 'understrap' ), convert_smilies( ':)' ) ) . '</p>';
 							the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
 
 							the_widget( 'WP_Widget_Tag_Cloud' );

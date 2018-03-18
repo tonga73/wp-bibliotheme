@@ -1,5 +1,17 @@
+// Font Custom Colors
+.text-cream {
+	color: $cream !important;
+}
+.text-cream-85 {
+	color: rgba($cream, 0.85) !important;
+}
+
+// Background Custom Colors
 .bg-main {
 	background-color: $cc-main;
+}
+.bg-cream {
+	background-color: $cream;
 }
 .bg-dblue {
 	background-color: $cc-dblue;

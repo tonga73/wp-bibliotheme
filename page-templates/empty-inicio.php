@@ -12,11 +12,54 @@ get_header();
 ?>
 <div class="breadcrumb m-0 bg-dblue text-light active">
 	<div class="container">
-		<h4 class="m-0 p-0">
-			<!-- Breadcrumb -->
-			<?php single_post_title(); ?>
-			<!-- Fin Breadcrumb -->			
-		</h4>
+		<h5 class="m-0 p-0 pl-3 text-cream-85">
+			<span>
+				<i class="fa fa-calendar pr-2" aria-hidden="true"></i>
+			</span>
+
+			<?php
+			$dia=date("l");
+
+			if ($dia=="Monday") $dia="Lunes";
+			if ($dia=="Tuesday") $dia="Martes";
+			if ($dia=="Wednesday") $dia="Miércoles";
+			if ($dia=="Thursday") $dia="Jueves";
+			if ($dia=="Friday") $dia="Viernes";
+			if ($dia=="Saturday") $dia="Sábado";
+			if ($dia=="Sunday") $dia="Domingo";
+
+			$mes=date("F");
+
+			if ($mes=="January") $mes="Enero";
+			if ($mes=="February") $mes="Febrero";
+			if ($mes=="March") $mes="Marzo";
+			if ($mes=="April") $mes="Abril";
+			if ($mes=="May") $mes="Mayo";
+			if ($mes=="June") $mes="Junio";
+			if ($mes=="July") $mes="Julio";
+			if ($mes=="August") $mes="Agosto";
+			if ($mes=="September") $mes="Setiembre";
+			if ($mes=="October") $mes="Octubre";
+			if ($mes=="November") $mes="Noviembre";
+			if ($mes=="December") $mes="Diciembre";
+
+			$ano=date("Y");
+
+			$dia2=date("d");
+
+			echo "$dia, $dia2 de $mes de $ano";
+			?>	
+			<span class="pl-1 pr-1">
+				·
+			</span>
+			<span>
+				<i class="fa fa-clock-o pr-2" aria-hidden="true"></i>
+			</span>
+
+			<?php
+			echo date('H:i');
+			?>
+		</h5>
 	</div>
 </div>
 <div class="jumbotron-para paral page-inicio">

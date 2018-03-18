@@ -12,11 +12,11 @@ get_header();
 ?>
 <div class="breadcrumb m-0 bg-dblue text-light">
 	<div class="container">
-		<h4 class="m-0 p-0">
+		<h5 class="m-0 p-0">
 			<!-- Breadcrumb -->
 			<?php the_breadcrumb(); ?>
 			<!-- Fin Breadcrumb -->			
-		</h4>
+		</h5>
 	</div>
 </div>
 <div class="jumbotron-para paral page-nosotros">
@@ -34,6 +34,10 @@ get_header();
 
 					<strong>Las bibliotecas populares</strong> son dirigidas y sostenidas principalmente por sus socios y brindan información, educación, recreación y animación socio-cultural, por medio de una colección bibliográfica y multimedial general y abierta al público.
 				</h5>
+				<hr>
+		        <a target="_blank" href="http://www.conabip.gob.ar/node/40#overlay-context=node/13" type="button" class="btn btn-sm close" data-dismiss="modal" aria-label="Close">
+		          <small><span aria-hidden="true text-muted"><small><small>fuente:</small> CONABIP <i class="fa fa-external-link" aria-hidden="true"></i></small></span></small>
+		        </a>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<div class="list-group">

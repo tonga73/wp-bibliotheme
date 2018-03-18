@@ -9723,8 +9723,17 @@ blockquote.quotescollection-quote {
   .paral h1 {
     font-size: 1.7rem; } }
 
+.text-cream {
+  color: #dcdcdc !important; }
+
+.text-cream-85 {
+  color: rgba(220, 220, 220, 0.85) !important; }
+
 .bg-main {
   background-color: #6d5996; }
+
+.bg-cream {
+  background-color: #dcdcdc; }
 
 .bg-dblue {
   background-color: #5868A3; }
