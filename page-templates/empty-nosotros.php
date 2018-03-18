@@ -72,12 +72,12 @@ get_header();
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-sm-12 col-md-8 offset-md-2">
+										<h5>											
+											Creada por resolución Nº 39 de la Comisión de Fomento de Oberá, con la firma de su presidente Dr. Gil Navarro, en Oberá el 9 de Septiembre de 1946, comenzó a prestar servicios al público el 30 de noviembre de 1947 en Villa Svea, sector oeste de la ciudad donde ésta fue fundada.<br/><br/>
 										<div class="p-3 bg-white text-center">
 											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/img059.jpg" alt="">											
 										</div>
 										<hr>
-										<h5>											
-											Creada por resolución Nº 39 de la Comisión de Fomento de Oberá, con la firma de su presidente Dr. Gil Navarro, en Oberá el 9 de Septiembre de 1946, comenzó a prestar servicios al público el 30 de noviembre de 1947 en Villa Svea, sector oeste de la ciudad donde ésta fue fundada.<br/><br/>
 
 											Al poco tiempo, recibió el nombre de “Eva Perón”, el que mantuvo hasta 1955 en que pasó a denominarse “Domingo Faustino Sarmiento”.-<br/><br/>
 
