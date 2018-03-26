@@ -14,3 +14,37 @@
 		}
 	}
 }
+#g {
+	a {
+		opacity: 0.1;
+		text-decoration: none;
+		font-family: 'Josefin Sans', serif;
+		display: block;
+		letter-spacing: 5px;
+		padding: 0;
+		cite {
+			color: $gray-darker;
+			display: block;
+		}
+		span {
+			display:none;
+			color: #f1948a;
+			opacity: 0;
+			small {
+				color: $gray;
+				letter-spacing: 3px;
+			}
+		}
+		&:hover {
+			opacity: 1;
+			transition: ease 3s;
+			cite {
+				display: none;
+			}
+			span {
+				display: inherit;
+				opacity: 1;
+			}
+		}
+	}
+}

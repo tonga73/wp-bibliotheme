@@ -46,27 +46,30 @@
 					border: 1px solid transparent;
 					border-bottom-left-radius: 15px;
 					border-bottom-right-radius: 15px;
-					color: $cream;
-					a {
-						font-weight: bold;
-						color: $cream;
-						&:hover {
-							color: $white;
-						}
-					}
+					color: $gray-lighter;
 					span {
 						display: block;
 						line-height: 200%;
 						cursor: default;
-						a {
-							cursor: pointer;
-						}
-					}
-					span.edit-link, span.screen-reader-text {
-						display: inherit !important;
-						cursor: pointer;
 						i {
-							cursor: default;
+							padding: 0 0.3rem;
+							color: $gray-lighter;
+						}
+						a {
+							padding: 0 0.3rem;
+							font-weight: bold;
+							color: $cream;
+							text-decoration:none;
+							padding: 0.375rem;
+							&:hover {
+								color: $white;
+								background-color: $cc-primary;
+							}
+							span.screen-reader-text {
+								cursor: pointer;
+								display: inherit !important;
+
+							}
 						}
 					}
 				}

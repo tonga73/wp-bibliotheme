@@ -68,6 +68,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div><!-- row end -->
 
 	<hr>
+
+	<!-- Desarrolla gastoire -->
+	<!-- <div id="g" class="col-sm-4 offset-sm-4 text-center pt-2"><a target="_blank" href="http://gastoire.com"><span>gastoire <small>empowering ideas</small></span><cite>desarrolla</cite><img src="http://bibliotecasobera.org/wp-content/uploads/2018/03/logo-borde1.png" alt="" width="23"></a></div> -->
+	
 	</div><!-- container end -->
 </div><!-- wrapper end -->
 

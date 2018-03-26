@@ -42,18 +42,18 @@ function understrap_entry_footer() {
 	// Hide category and tag text for pages.
 	if ( 'post' === get_post_type() ) {
 		/* translators: used between list items, there is a space after the comma */
-		$categories_list = get_the_category_list( esc_html__( ', ', 'understrap' ) );
+		$categories_list = get_the_category_list( esc_html__( ' · ', 'understrap' ) );
 		if ( $categories_list && understrap_categorized_blog() ) {
-			printf( '<span class="cat-links"><i class="fa fa-list" aria-hidden="true"></i> ' . esc_html__( 'Categoría %1$s', 'understrap' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+			printf( '<span class="cat-links"><i class="fa fa-list" aria-hidden="true"></i> ' . esc_html__( 'Categoría | %1$s', 'understrap' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 		}
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'understrap' ) );
+		$tags_list = get_the_tag_list( '', esc_html__( ' · ', 'understrap' ) );
 		if ( $tags_list ) {
-			printf( '<hr/><span class="tags-links"><i class="fa fa-tag" aria-hidden="true"></i> ' . esc_html__( 'Relacionado con %1$s', 'understrap' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+			printf( '<hr class="bg-main" /><span class="tags-links"><i class="fa fa-tag" aria-hidden="true"></i> ' . esc_html__( 'Relacionado con | %1$s', 'understrap' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 		}
 	}
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<hr/><span class="comments-link"><i class="fa fa-comment text-light" aria-hidden="true"></i> 
+		echo '<hr class="bg-main" /><span class="comments-link"><i class="fa fa-comment" aria-hidden="true"></i> 
  ';
 		comments_popup_link( esc_html__( 'Dejá un comentario', 'understrap' ), esc_html__( '1 Comentario', 'understrap' ), esc_html__( '% Comentarios', 'understrap' ) );
 		echo '</span>';
@@ -61,10 +61,10 @@ function understrap_entry_footer() {
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */
-			esc_html__( 'Editar %s', 'understrap' ),
+			esc_html__( 'Editar: %s', 'understrap' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
-		'<hr/><span class="edit-link"><i class="fa fa-pencil-square-o text-light" aria-hidden="true"></i>
+		'<hr class="bg-main" /><span class="edit-link"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 ',
 		'</span>'
 	);
