@@ -52,15 +52,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<h5 class="text-muted">Enlaces relacionados</h5>
 				<div class="row">
 					<div class="col-sm-12 col-md-6">
-						<a target="_blank" href="https://www.cultura.gob.ar/">
-							<img src="https://static.cultura.gob.ar/img/logo-mcn.6cb13ca1ecf0.png" alt="">
-						</a>
-					</div>
-					<div class="col-sm-12 col-md-6">
 						<a target="_blank" href="http://www.conabip.gob.ar/">
 							<img src="http://www.conabip.gob.ar/sites/default/files/logoConabip_color.png" alt="">
 						</a>
 					</div>					
+					<div class="col-sm-12 col-md-6">
+						<a target="_blank" href="https://www.cultura.gob.ar/">
+							<img src="https://static.cultura.gob.ar/img/logo-mcn.6cb13ca1ecf0.png" alt="">
+						</a>
+					</div>
 				</div>
 			</div>
 					

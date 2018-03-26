@@ -9756,13 +9756,13 @@ blockquote.quotescollection-quote {
     text-decoration: none;
     cursor: default; }
 
-.gallery.gallery-size-thumbnail figure.gallery-item div.gallery-icon.landscape {
+.gallery.gallery-size-thumbnail figure.gallery-item div.gallery-icon {
   padding: 0.335rem;
   margin: 1px;
   background-color: #fff; }
-  .gallery.gallery-size-thumbnail figure.gallery-item div.gallery-icon.landscape:hover {
+  .gallery.gallery-size-thumbnail figure.gallery-item div.gallery-icon:hover {
     background-color: #6d5996; }
-  .gallery.gallery-size-thumbnail figure.gallery-item div.gallery-icon.landscape a {
+  .gallery.gallery-size-thumbnail figure.gallery-item div.gallery-icon a {
     display: block; }
 
 #myBtn {
