@@ -196,7 +196,7 @@ get_header();
 					        <h5 class="modal-title" id="exampleModalLongTitle">Número telefónico</h5>
 					      </div>
 					      <div class="modal-body">
-					        <h2>(+54) 03755 - 425832</h2>
+					        <h2><a style="color:#181818;text-decoration: none;" href="tel:+543755425832">(+54) 03755 - 425832</a></h2>
 					      </div>
 					      <div class="modal-footer">
 					        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>

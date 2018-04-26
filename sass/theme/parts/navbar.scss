@@ -12,7 +12,8 @@ header {
 		.navbar.navbar-expand-md{
 			padding: 0;
 			.container {
-				.navbar-brand.custom-logo-link{
+				a.navbar-brand.custom-logo-link{
+					margin: auto;
 					img{
 						max-height: 70px;
 						width: auto;

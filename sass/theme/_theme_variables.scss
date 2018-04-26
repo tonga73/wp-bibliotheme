@@ -43,3 +43,32 @@ $navbar-color-hover:$white;
 	$navbar-item-bg-hover:$cc-main;
 	/* Dropdown */
 	$dropdown-bg:$navbar-bg;
+
+// Pagination
+
+// $pagination-padding-y:              .5rem !default;
+// $pagination-padding-x:              .75rem !default;
+// $pagination-padding-y-sm:           .25rem !default;
+// $pagination-padding-x-sm:           .5rem !default;
+// $pagination-padding-y-lg:           .75rem !default;
+// $pagination-padding-x-lg:           1.5rem !default;
+// $pagination-line-height:            1.25 !default;
+
+$pagination-color:                  $cream;
+$pagination-bg:                     $cc-blue;
+// $pagination-border-width:           $border-width !default;
+$pagination-border-color:           $cc-main;
+
+// $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
+
+$pagination-hover-color:            $white;
+$pagination-hover-bg:               darken($cc-blue, 10%);
+$pagination-hover-border-color:     $pagination-hover-bg;
+
+$pagination-active-color:           $white;
+$pagination-active-bg:              $cc-primary;
+$pagination-active-border-color:    $cc-primary;
+
+// $pagination-disabled-color:         $gray-600 !default;
+// $pagination-disabled-bg:            $white !default;
+// $pagination-disabled-border-color:  $gray-300 !default;

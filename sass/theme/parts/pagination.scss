@@ -1,0 +1,19 @@
+ul.pagination {
+	li.page-item.active {
+		font-weight: bold;
+	}
+	li.page-item.page-item-direction {
+		span.page-link {
+			padding: 0;
+			a {
+				display: block !important;
+				color: $cream !important;
+				text-decoration: none;
+				span {
+					padding: 0.5rem 0.75rem;
+					display: block;
+				}
+			}			
+		}
+	}
+}

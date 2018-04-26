@@ -63,21 +63,21 @@ get_header();
 	</div>
 		<div id="estudiante" class="col-sm-12 col-md-8 offset-md-2 col-lg-4 offset-lg-0">
 			<h4>Socio Estudiante</h4>
-			<span>Inscipción</span>
+			<span>Inscripción</span>
 			<p>40</p>
 			<span>Cuota Mensual</span>
 			<p>20</p>
 		</div>
 		<div id="comun" class="col-sm-12 col-md-8 offset-md-2 col-lg-4 offset-lg-0">
 			<h4>Socio Común</h4>
-			<span>Inscipción</span>
+			<span>Inscripción</span>
 			<p>80</p>
 			<span>Cuota Mensual</span>
 			<p>40</p>
 		</div>
 		<div id="protector" class="col-sm-12 col-md-8 offset-md-2 col-lg-4 offset-lg-0">
 			<h4>Socio Protector</h4>
-			<span>Inscipción</span>
+			<span>Inscripción</span>
 			<p>160</p>
 			<span>Cuota Mensual</span>
 			<p>80</p>

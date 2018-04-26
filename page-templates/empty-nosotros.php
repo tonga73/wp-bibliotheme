@@ -71,52 +71,101 @@ get_header();
 					      <div class="modal-body">
 							<div class="container-fluid">
 								<div class="row">
-									<div class="col-sm-12 col-md-8 offset-md-2">
+									<div class="col-sm-12 col-md-6 align-self-center">
 										<h5>											
 											Creada por resolución Nº 39 de la Comisión de Fomento de Oberá, con la firma de su presidente Dr. Gil Navarro, en Oberá el 9 de Septiembre de 1946, comenzó a prestar servicios al público el 30 de noviembre de 1947 en Villa Svea, sector oeste de la ciudad donde ésta fue fundada.<br/><br/>
+										</h5>
+									</div>
+									<div class="col-sm-12 col-md-6 align-self-center">
 										<div class="p-3 bg-white text-center">
 											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/img059.jpg" alt="">											
 										</div>
-										<hr>
-
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-6 align-self-center order-sm-last order-md-first">
+										<div class="p-3 bg-white text-center">
+											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/04/Biblioteca-fotografías-248.jpg" alt="">											
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-6 align-self-center">
+										<h5>											
 											Al poco tiempo, recibió el nombre de “Eva Perón”, el que mantuvo hasta 1955 en que pasó a denominarse “Domingo Faustino Sarmiento”.-<br/><br/>
 
 											La Biblioteca mantuvo siempre una estructura jurídica autónoma, si bien durante todos los años de su existencia fue ayudada por gobiernos nacionales, provinciales, municipales y personas jurídicas y físicas de la ciudad.-<br/><br/>
-
+										</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-6 align-self-center">
+										<h5>											
 											También ha recibido mucha ayuda y colaboración de la Comisión Nacional Protectora de Bibliotecas Populares.-
 											En cuanto a la colaboración de la Municipalidad de Oberá, ella consiste principalmente en la prestación de personal técnico y de servicios que queda afectada al funcionamiento de la entidad.-
 											La biblioteca funciona durante todo el año y durante los días hábiles en un horario corrido de 7 a 19 hs.-<br/><br/>
-
-											A través de las distintas etapas ha tenido su sede primero en Villa Svea, luego en Calle Gobernador Barreyro, donde ahora funcional el Honorable Concejo Deliberante de la ciudad, para trasladarse hasta su sede actual de calles Chaco y Gobernador Barreyro, en pleno centro de Oberá.-<br/>
 										</h5>
 									</div>
-									<div class="col-sm-12 col-md-8 offset-md-2">
+									<div class="col-sm-12 col-md-6 align-self-center">
+										<div class="p-3 bg-white text-center">
+											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/04/Biblioteca-fotografías-230.jpg" alt="">											
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-6 align-self-center order-sm-last order-md-first">
 										<div class="p-3 bg-white text-center">
 											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/img058.jpg" alt="">											
 										</div>
-										<hr>
+									</div>
+									<div class="col-sm-12 col-md-6 align-self-center">
+										<h5>
+											A través de las distintas etapas ha tenido su sede primero en Villa Svea, luego en Calle Gobernador Barreyro, donde ahora funcional el Honorable Concejo Deliberante de la ciudad, para trasladarse hasta su sede actual de calles Chaco y Gobernador Barreyro, en pleno centro de Oberá.-<br/>										
+										</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-6 align-self-center">
 										<h5>											
 											En ese lugar se levanta su actual magnífico edificio propio, construcción aun parcial. Este edificio fue construido mediante grandes sacrificios y durante varios años de labor, constantemente para ello con la colaboración de los gobiernos provinciales y municipales y especialmente de los socios y de la comunidad toda de Oberá. Es un edificio de dos plantas. En la actualidad se hallan totalmente terminados 544 metros cuadrados de superficie, que incluyen la amplia sala central, salas especiales y oficina. Una vez terminado todo el proyecto edilicio, la biblioteca va a contar con una superficie cubierta cercana a los 1000 metros cubiertos.<br/><br/>
+										</h5>
+									</div>
+									<div class="col-sm-12 col-md-6 align-self-center">
 										<div class="p-3 bg-white text-center">
 											<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025103_602425076634433_5516926776889764313_o.jpg" alt="">											
 										</div>
-										<hr>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-6 align-self-center order-sm-last order-md-first">
+											<div class="p-3 bg-white text-center">
+												<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025180_602424713301136_6170567513259057056_o.jpg" alt="">										
+											</div>
+									</div>
+									<div class="col-sm-12 col-md-6 align-self-center">		
+										<h5>						
 											Cabe destacar también que la Biblioteca Popular Domingo Faustino Sarmiento de Oberá posee actualmente unos 30.000 libros, que comprenden todos los tópicos o materias. Asimismo reciben diariamente todos los principales diarios de la Provincia y los periódicos locales, como revistas y folletos literarios de todo tipo, los que están permanentemente a disposición de los lectores.-<br/><br/>
-
+										</h5>								
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-6 align-self-center">
+										<h5>
 											La entrada a la biblioteca y la utilización de los textos es totalmente libre y gratuita para todos y los socios pueden retirar por tiempo determinado, novelas, textos de información general y libros varios, no así aquellos afectados al estudio. <br/><br/>
 
 											Tal la historia resumida de uno de los baluartes culturales de la ciudad, orgullo de la misma y de toda la Provincia de Misiones, a través de sus 
 												<?php
 													echo date('y', strtotime("-1947 year"));
 												?>
-											largos años de vida.<br/><br/>
-											<div class="p-3 bg-white text-center">
-												<img class="img-fluid" src="http://bibliotecasobera.org/wp-content/uploads/2018/03/15025180_602424713301136_6170567513259057056_o.jpg" alt="">										
-											</div>
-											<hr>
+											largos años de vida.<br/><br/>										
 										</h5>
 									</div>
+									<div class="col-sm-12 col-md-6 align-self-center">
+										<div class="p-3 bg-white text-center">
+											<img src="http://bibliotecasobera.org/wp-content/uploads/2018/04/Biblioteca-fotografías-252.jpg" alt="" class="img-fluid">
+										</div>
+									</div>
+									
 								</div>
+								<hr>
 							</div>
 					      </div>
 					      <div class="modal-footer justify-content-center">

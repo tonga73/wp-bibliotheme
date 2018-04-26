@@ -25,14 +25,17 @@ get_header();
 	</div>
 </div>
 
-<?php
-while ( have_posts() ) : the_post();
-	get_template_part( 'loop-templates/content', 'empty' );
-endwhile;
-?>
 
 	<div class="container">
 		<div class="row">
+			<div class="col-sm-12">
+				<?php
+				while ( have_posts() ) : the_post();
+					get_template_part( 'loop-templates/content', 'empty' );
+				endwhile;
+				?>
+				
+			</div>
 			<div class="col-sm-12">
                 <div class="medium-12 cell">
                     <iframe allowfullscreen="" frameborder="0" height="230" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.5544982584456!2d-55.11882105517452!3d-27.48312565022307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f8f53f7aea882d%3A0xe15219d842246b9c!2sBiblioteca+Domingo+Faustino+Sarmiento!5e0!3m2!1ses-419!2sar!4v1509654140992" style="border:0" width="100%">
@@ -56,7 +59,7 @@ endwhile;
 								<i class="fa fa-phone"></i>
 							</div>
 							<div class="servicios-description bg-light">
-								<h4>03755 - 425832</h4>			
+								<h4><a href="tel:+543755425832">03755 - 425832</a></h4>			
 							</div>
 						</div>
 						<div id="servicios-card" class="col-sm-12 col-md-6 text-center">
