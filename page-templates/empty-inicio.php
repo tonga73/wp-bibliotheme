@@ -123,6 +123,7 @@ get_header();
 			  <a href="http://bibliotecasobera.org/nosotros/galeria/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Galería de Imágenes</a>
 			  <a href="http://bibliotecasobera.org/contacto/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Contacto</a>
 			  <a href="http://bibliotecasobera.org/servicios/asociarse/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Hacerse Socio</a>
+			  <a href="http://bibliotecasobera.org/servicios/visitas-guiadas/" class="list-group-item list-group-item-action list-group-item-dark bg-dblue text-light font-weight-bold text-uppercase">Visitas Guiadas</a>
 			</div>
 			
 		</div>

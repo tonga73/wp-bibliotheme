@@ -9638,6 +9638,9 @@ body {
 .page-servicios-servicio-ciudadano {
   background-image: url("http://bibliotecasobera.org/wp-content/uploads/2018/03/15039523_602425563301051_1590871908712876572_o.jpg"); }
 
+.page-servicios-visitas-guiadas {
+  background-image: url("http://bibliotecasobera.org/wp-content/uploads/2018/03/visitas1.jpg"); }
+
 .page-servicios-hacerse-socio {
   background-image: url("http://www.trussvilletribune.com/wp-content/uploads/2017/10/library.jpg"); }
 
@@ -9721,6 +9724,8 @@ header .wrapper-fluid.wrapper-navbar {
       border: 0;
       text-align: center;
       background-color: #6d5996; }
+      header .wrapper-fluid.wrapper-navbar .navbar.navbar-expand-md .container .navbar-collapse.justify-content-end .navbar-nav li .dropdown-menu.show li.divider {
+        border-bottom: 1px solid #c4c4c4; }
       header .wrapper-fluid.wrapper-navbar .navbar.navbar-expand-md .container .navbar-collapse.justify-content-end .navbar-nav li .dropdown-menu.show li {
         background-color: #fff;
         width: 100%;

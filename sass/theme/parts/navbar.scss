@@ -40,6 +40,9 @@ header {
 								border: 0;
 								text-align: center;
 								background-color: $cc-main;
+								li.divider {
+									border-bottom: 1px solid $gray-lighter;
+								}
 								li {
 									background-color: $white;
 									width: 100%;
